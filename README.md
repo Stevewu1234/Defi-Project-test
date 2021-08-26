@@ -1,3 +1,3 @@
 # NewLong
 
-Another Test contracts
+New contract structures
