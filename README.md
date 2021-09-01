@@ -1,3 +1,3 @@
 # NewLong
 
-New contract structures
+This contract repo will be adopted to display some ideas
