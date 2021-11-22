@@ -4,7 +4,10 @@ pragma solidity ^0.5.16;
 import "@openzeppelin/contracts/cryptography/MerkleProof.sol";
 import "@openzeppelin/contracts/token/ERC20/SafeERC20.sol";
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "./Interfaces/IHolderToken.sol";
+
+interface IHolderToken {
+    function vaults(address account) external view returns(uint256, uint256);
+}
 
 
 
